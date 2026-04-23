@@ -1,5 +1,15 @@
+# dependencies
 node_modules/
-.env
-.env.*
+Backend/node_modules/
+Frontend/**/node_modules/
+
+# env files
+Backend/.env
+Frontend/**/.env
+
+# logs
+npm-debug.log*
+
+# build
 dist/
 build/
